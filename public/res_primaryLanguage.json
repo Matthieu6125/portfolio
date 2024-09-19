@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "Moi c'est Matthieu Lebreton. Tu veux en savoir un peu plus sur moi, tu es au bon endroit. \n J'ai débuté le code dans un fablab, décidé à réaliser une application web de vote électronique. J'ai par la suite décider de me former au métier.\nEt me voilà à l'aube de mon diplôme.\nSpécialisé en javascript, je serai ravi de vous accompagner dans vos projets de la réalisation frontend en React au Backend en Node.js.\nPensez à me laisser un petit message m’expliquant vos besoins. ;)",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,54 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Kasa",
+        "startDate": "2024",
+        "description": "Kasa est mon premier projet React. Lobjectif : récupérer les données d'un site de location immobilière et les afficher en Card clicable. \n Site responcive, logique composant, fetch, props, hook sont les maitres mots de ce projet.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "react-frontend-dev-portfolio/images/portfolio/Kasa/Home-page.png",
+          "react-frontend-dev-portfolio/images/portfolio/Kasa/details-logement.png",
+          "react-frontend-dev-portfolio/images/portfolio/Kasa/a-propos-page.png"
+
         ],
-        "url": "",
+        "url": "https://github.com/Matthieu6125/Kasa",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "name": "React",
+            "class": "devicon-react-plain"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Sass",
+            "class": "devicon-sass-original"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Mon vieux Grimoire",
+        "startDate": "2024",
+        "description": "Mon projet préféré. L'objectif est de réaliser en collaboration avec un dev Frontend un site de Notation de livre. M'occupant du backend, j'explore Express et MangoBD. \nAuthentification, optimisation des images et routing sont les point clés du projet.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "react-frontend-dev-portfolio/images/portfolio/Mon-vieux-Grimoire/Home-page.png",
+          "react-frontend-dev-portfolio/images/portfolio/Mon-vieux-Grimoire/Login-page.png",
+          "react-frontend-dev-portfolio/images/portfolio/Mon-vieux-Grimoire/Ajouter-un-livre-page.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Matthieu6125/P7-Dev-Web-livres",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "name": "React",
+            "class": "devicon-react-plain"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "Css",
+            "class": "devicon-css3-plain"
+          },
+          {
+            "name": "Express",
+            "class": "devicon-express-original"
+          },
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain"
           }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
         ]
       }
     ]
